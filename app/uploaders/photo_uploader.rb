@@ -19,11 +19,11 @@ class PhotoUploader < CarrierWave::Uploader::Base
   end
 
   version :normal do
-    process :default_conversion => [320, 320]
+    process :default_conversion => [240, 240]
   end
 
   version :small do
-    process :default_conversion => [80, 80]
+    process :default_conversion => [40, 40]
   end
 
   private

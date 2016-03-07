@@ -1,8 +1,8 @@
 GIT
   remote: https://github.com/iSarCasm/shopping_cart_engine
-  revision: 64fa864d6f127055db5e08d64b282fa8820553dd
+  revision: c34820caec46f124d9e86bc12fbfb09bc2cec4db
   specs:
-    shopping_cart (0.0.2)
+    shopping_cart (0.0.12)
       rails (~> 4.2.5)
 
 GEM
@@ -65,8 +65,8 @@ GEM
     debug_inspector (0.0.2)
     erubis (2.7.0)
     execjs (2.6.0)
-    font-awesome-rails (4.5.0.0)
-      railties (>= 3.2, < 5.0)
+    font-awesome-rails (4.5.0.1)
+      railties (>= 3.2, < 5.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     haml (4.0.7)
@@ -97,6 +97,7 @@ GEM
     nested_form (0.3.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
+    normalize-rails (3.0.3)
     rack (1.6.4)
     rack-pjax (0.8.0)
       nokogiri (~> 1.5)
@@ -116,7 +117,7 @@ GEM
       sprockets-rails
     rails-assets-bootstrap (3.3.6)
       rails-assets-jquery (>= 1.9.1, < 3)
-    rails-assets-jquery (2.1.4)
+    rails-assets-jquery (2.2.1)
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.7)
@@ -194,6 +195,7 @@ DEPENDENCIES
   jbuilder (~> 2.0)
   jquery-rails
   mini_magick
+  normalize-rails
   rails (= 4.2.5.2)
   rails-assets-bootstrap!
   rails_admin

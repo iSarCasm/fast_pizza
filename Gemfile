@@ -14,6 +14,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'shopping_cart', git: 'https://github.com/iSarCasm/shopping_cart_engine'
 
+gem 'normalize-rails'
 source 'https://rails-assets.org' do
   gem 'rails-assets-bootstrap'
 end
